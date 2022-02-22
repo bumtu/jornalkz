@@ -1,0 +1,2 @@
+# jornalkz
+postagens de informacao
