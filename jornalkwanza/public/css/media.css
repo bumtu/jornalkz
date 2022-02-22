@@ -1,0 +1,195 @@
+/* PARA TABLETES GRANDES */
+@media (max-width: 1024px) {
+
+} 
+
+/* PARA TABLETES IPADS */
+@media (max-width: 990px) {
+   /* .menu-session-app{
+        margin-left: 9%;
+        display: flex;
+    }*/
+    .menu-session-app{
+        position: absolute;
+        margin-left: 65%;
+    }
+    .all-content{
+        width: 95%;
+    }
+    .txt-resumo{
+        width: 88%;
+        top: 48%;
+        color: white;
+        font-size: 19px;
+    }
+    .left-content{
+        display: none;
+    }
+    .menu-login, .menu-login img{
+        width: 35px;
+        height: 35px;
+        display: block;
+    }
+    .linkHd, .btn-login{
+        visibility: hidden;
+    }
+    .menu-device{
+        width: 20%;
+        top: 4%;
+        left: 75%;
+        z-index: 1;
+    }
+    .vlt{
+        display: block;
+    }
+} 
+
+
+/* PARA TELEFONES GRANDES */
+@media (max-width: 379px), (max-width: 575px) {
+    .app-head h1{
+        font-size: 24px;
+    }
+    .all-content{
+        width: 80%;
+        margin-left: 25px;
+    }
+    .manchete{
+        width: 150%;
+        margin-right: -25px;
+    }
+    .manchete-dia{
+        font-size: 12px;
+    }
+    .txt-resumo{
+        width: 69%;
+        top: 43%;
+        color: white;
+    }
+    .menu-session-app{
+        position: absolute;
+        margin-left: 27%;
+    }
+    .menu-device{
+        width: 40%;
+        top: 5.5%;
+        left: 52%;
+        z-index: 1;
+    }
+    .btn-seguir{
+        width: 90px;
+        text-align: center;
+        padding: 2px;
+        float: right;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .center-content{
+        position: absolute;
+        width: 90%;
+        left: 2%;
+        padding: 10px;
+    }
+    .sign-users{
+        width: 75%;
+        padding: 20px;
+        text-align: center;
+        margin: 0 auto; margin-top: 100px;
+    }
+    .comment-field{
+        width: 79%;
+        padding: 12px;
+        background-color: lightgray;
+        border: 1px solid gray;
+        border-radius: 3px;
+        font-size: 15px;
+    }
+    .vlt{
+        display: block;
+    }
+    .id-jornalist{
+       width: 50%;
+    }
+    .boilTxt{
+        width: 87%;
+    }
+    .menu-login{
+        margin-left: 15px;
+    }
+}
+
+/* PARA TELEFONES PEQUENOS */
+@media (max-width: 360px) {
+    .app-head h1{
+        font-size: 24px;
+    }
+    .all-content{
+        width: 80%;
+        margin-left: 25px;
+    }
+    .txt-resumo{
+        width: 69%;
+        top: 45%;
+        color: white;
+        font-size: 14px;
+    }
+    .menu-session-app{
+        position: absolute;
+        margin-left: 13%;
+    }
+    .btn-login{
+        margin-right: 7vw;
+    }
+    .menu-device{
+        width: 40%;
+        top: 7%;
+        left: 53%;
+        z-index: 1;
+    }
+    .center-content{
+        position: absolute;
+        width: 90%;
+        left: 1.5%;
+        padding: 10px;
+    }
+    .btn-seguir{
+        width: 50px;
+        text-align: center;
+        padding: 2px;
+        float: right;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .manchete{
+        width: 150%;
+        height: 55vh;
+        margin-right: -20px;
+    }
+    .manchete-dia{
+        font-size: 12px;
+    }
+    .sign-users{
+        width: 85%;
+        padding: 20px;
+        text-align: center;
+        margin: 0 auto; margin-top: 100px;
+        margin-top: -1px;
+    }
+    .comment-field{
+        width: 73%;
+        padding: 12px;
+        background-color: lightgray;
+        border: 1px solid gray;
+        border-radius: 3px;
+        font-size: 15px;
+    }
+    .vlt{
+        display: block;
+    }
+    .id-jornalist{
+       width: 57%;
+    }
+    .menu-login{
+        margin-left: -9px;
+    }
+}

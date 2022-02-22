@@ -1,0 +1,369 @@
+*{
+    font-family:verdana,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.head-banner{
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.head-content{
+    width: 950px;
+    display: flex;
+    margin: 0 auto;
+}
+.app-head{
+    color: #950101;
+    display: flex;
+}
+/*.app-head, .menu-session-app{
+    border: 1px solid black;
+}*/
+.menu-login, .menu-login img{
+    display: none;
+}
+.menu-session-app{
+    margin-left: 485px;
+    display: flex;
+}
+.menu-session-app a{
+    text-decoration: none;
+}
+.btn-login{
+    margin-left: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 80px;
+    padding: 8px;
+    background-color:#ff0000;
+    color: white;
+}
+.linkHd{
+    border-radius: 20px;
+    text-align: center;
+    width: 80px;
+    padding: 8px;
+    font-weight: bold;
+    color: #000000;
+}
+.all-content{
+    width: 950px;
+    margin: 0 auto;
+    display: flex;
+}
+.left-content{
+    width: 270px;
+    height: 300px;
+    margin-right: 50px;
+}
+.center-content{
+    width: 450px;
+    padding: 10px;
+}
+.tdas-newsIcon{
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+}
+.tdas-newsIcon img{
+    width: 25px;
+    height: 25px;
+}
+#id-seg{
+    margin-bottom: 14px;
+}
+.tdasTxt{
+    margin-left: 30px;
+    margin-top: 5px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 14px;
+}
+.atuais-seg a{
+    color: black;
+}
+.atuais-seg{
+    border-bottom: 1px solid lightgray;
+}
+.btn-Entrar{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ff0000;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-Entrar:hover{
+    background-color: #ff0000;
+    color: white;
+}
+.desc-btn{
+    margin-bottom: 20px; margin-top: 20px;
+    border-bottom: 1px solid lightgray;
+    color: gray;
+}
+.desc-btn a{
+    text-decoration: none;
+}
+.copyright-index{
+    color: gray;
+    font-size: 13px;
+}
+.img-noticia{
+    height: 450px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.img-noticia img{
+    width: 100%;
+    height: 100%;
+    /*border-top-left-radius: 10px;
+    border-top-right-radius: 10px;*/
+    object-fit: cover;
+}
+.noticia-content{
+    padding: 10px;
+    border: 1px solid lightgray;
+    margin-bottom: 50px;
+}
+.pic-jornalist{
+    width: 50px;
+    height: 50px;
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+.pic-jornalist img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.btn-seguir{
+    border: 1px solid #ff0000;
+    color: #ff0000;
+    width: 130px;
+    text-align: center;
+    padding: 5px;
+    float: right;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-seguir:hover{
+    background-color: #ff0000;
+    color: white;
+}
+.id-jornalist{
+    width: 260px;
+    margin-left: 55px;
+    position: absolute;
+}
+.jrNome{
+    font-weight: bold;
+    font-size: 14px;
+}
+.ntData{
+    color: gray;
+}
+.votes{
+    display: flex;
+}
+.up-vote{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.up-vote img{
+    width: 40px;
+    height: 40px;
+}
+.sign-users{
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto; margin-top: 100px;
+}
+.sign-descricao{
+    font-weight: bold;
+    color: gray;
+}
+.sign-date{
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+.sign-user{
+    border: 1px solid gray;
+    padding: 5px;
+    background-color: #f0f0f0;
+    font-size: 14px;
+    width: 250px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.btn-logar{
+    width: 120px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+#btn-sg{
+    background-color: #5cb85c;
+}
+#btn-lg{
+    background-color: #ff0000;
+}
+.copyright-signup{
+    color: gray;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.sg-benvindo{
+    width: 250px;
+    margin: 0 auto; margin-top: 15%;
+}
+.like-num{
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-bottom: 15px;
+    color: #636363;
+}
+.frm-post{
+    border-top: 1px solid lightgray;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.comment-field{
+    width: 83%;
+    padding: 12px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-size: 15px;
+}
+.cmmt {
+    width: 200px;
+    padding: 5px;
+    color: gray;
+    font-size: 13px;
+    cursor: pointer;
+}
+.cmt-list{
+    border-top: 1px solid gray;    
+}
+.boilTxt{
+    color: gray;
+    font-size: 13px;
+    padding: 10px;
+    padding-left: 30px;
+    width: 300px;
+}
+.btnSend{
+    width: 40px;
+    height: 40px;
+    float: right;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+}
+.btnSend img{
+    width: 100%; height: 100%;
+}
+.manchete{
+    height: 50vh;
+    width: 100%;
+}
+.manchete img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.txt-resumo{
+    position: absolute;
+    padding: 20px;
+    max-width: 800px;
+    top: 50%;
+    color: white;
+    font-weight: bold;
+    text-shadow: 3px 3px 4px #444;
+}
+/* Inserir dados na div footer da pagina INDEX
+
+.footer-items{
+}
+
+
+
+*/
+.call-center{
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    color: gray;
+}
+.manchete-dia{
+    position: absolute;
+    color: white;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.call-center a{
+    color: #950101;
+}
+.imageCm, .imageCm img{
+    height: 18vh;
+}
+.menu-device{
+    border: 1px solid gray;
+    padding: 5px;
+    width: 20%;
+    position: absolute;
+    top: 5%;
+    left: 75%;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: none;
+}
+.openDrop{
+    display: block;
+}
+.dev-items{
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.dev-items a{
+    color: #636363;
+    text-decoration: none;
+}
+#enter, #exit{
+    border-bottom: 1px solid lightgray;
+}
+.vlt{
+    width: 28px;
+    height: 28px;
+    float: left;
+    display: none;
+}
+.vlt img{
+    width: 100%;
+    height: 100%;
+}
+.infoerror{
+    color: red;
+}

@@ -1,0 +1,147 @@
+/* PARA TELAS DE TABLES*/
+@media (max-width: 991.98px){
+    #descApp{
+        display: none;
+        border: 1;
+    }
+    #loginArea{
+        border-radius: 10px;
+    }
+    .fview{
+        margin: 0 auto;
+        margin-top: 15%;
+        width: 70%;
+    }
+    .lgview{
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 15%;
+    }
+    .jr-bodyApp{
+        width: 100%;
+    }
+    .sttng-menu{
+        margin-left: 48%;
+    }
+    #mnun{
+        visibility: visible;
+        cursor: pointer;
+    }
+    .home-dr, .musr{
+        visibility: hidden;
+    }
+    #jl-data{
+        display: none;
+    }
+    .toggle-W{
+        padding: 10px;
+        top: 4%;
+        left: 78%;  
+    }
+    .wellcome{
+        margin: 0 auto;
+        margin-top: 19%;
+    }
+}
+
+
+
+
+/* PARA TELAS DE TELEFONES */
+
+@media (max-width: 767.98px){
+    #descApp{
+        display: none;
+        border: 1;
+    }
+    #loginArea{
+        border-radius: 0px;
+    }
+    .fview{
+        margin: 0 auto;
+        width: 100%;
+        height: 100vh;
+    }
+    .lgField{
+        width: 80%;
+    }
+    .lgview{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .jr-bodyApp{
+        width: 100%;
+    }
+    .sttng-menu{
+        margin-left: -9%;
+    }
+    #mnun{
+        visibility: visible;
+        cursor: pointer;
+    }
+    .home-dr, .musr{
+        visibility: hidden;
+        margin-left: 7px;
+    }
+    #jl-data{
+        display: none;
+    }
+    .toggle-W{
+        padding: 10px;
+        top: 5%;
+        left: 57%;  
+    }
+    .blocos-Not{
+        width: 89%;
+        margin-left: 3%;
+    }
+    .all-notic-post{
+        border: 1px solid black;
+        width: 100%;
+        display: contents;
+    }
+    .agrup-formP{
+        width: 89%;
+        margin-left: 3%;
+    }
+    .txtarea{
+        width: 80%;
+    }
+    .post-img-noti{
+        width: 99%;
+        height: 25%;
+    }
+    .ed-menu {
+        margin-left: 25.3%;
+    }
+    .posit-Hder{
+        width: 100%;
+    }
+    .wellcome{
+        margin: 0 auto;
+        margin-top: 19%;
+    }
+}
+
+@media (max-width: 390px){
+    #mnun{
+        visibility: visible;
+        cursor: pointer;
+        position: absolute;
+        left: 80%;
+    }
+    .toggle-W{
+        padding: 10px;
+        top: 5%;
+        left: 50%;  
+    }
+    .agrup-formP{
+        width: 88%;
+    }
+    .cada-um{
+        width: 90%;
+    }
+}
+
+
+/* PARA TELAS DE TELEFONES COMPUTADORES */
